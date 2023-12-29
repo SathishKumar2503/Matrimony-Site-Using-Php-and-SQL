@@ -1,0 +1,122 @@
+
+/* Navbar Starts */
+
+nav {
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+.navbar {
+/* background: #ee4343; */
+  background: rgb(44, 41, 41);
+  /* background-color:  #fdc448; */
+padding-left: 16px;
+padding-right: 16px;
+border-bottom: 1px solid #dfe3e8;
+border-radius: 0;
+}
+
+.navbar .navbar-brand {
+padding-left: 50px;
+font-size: 20px;
+padding-right: 50px;
+}
+.navbar .navbar-brand b {
+/* color: #33cabb;	 */
+  color: #f5ad12;			
+}
+.navbar .form-inline {
+display: inline-block;
+}
+.navbar a {
+/* color:black !important; */
+  color: white !important;
+font-size: 16px;
+}
+
+
+
+.navbar .dropdown-menu {
+color: #999;
+font-weight: normal;
+border-radius: 1px;
+border-color: #e5e5e5;
+box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+
+
+
+
+.navbar .action-buttons .dropdown-toggle::after {
+display: none;
+}
+
+@media (min-width: 1200px){
+.form-inline .input-group {
+  width: 300px;
+  margin-left: 30px;
+}
+ 
+}
+@media (max-width: 768px){
+.navbar .dropdown-menu.action-form {
+  width: 100%;
+  padding: 10px 15px;
+  background: transparent;
+  border: none;
+}
+.navbar .form-inline {
+  display: block;
+}
+.navbar .input-group {
+  width: 100%;
+}
+  .navbar-nav {
+      margin-left: 0px !important;
+  }
+  .navbar-toggler {
+      margin-right: 20px !important;
+  }
+}
+
+.navbar-nav .nav-link {
+  margin-left: 30px;
+}
+
+.sign-up-btn {
+  margin-left: 30px;
+
+}
+
+#loginbtn {
+margin-right: 30px;
+}
+
+
+/* Navbar Ends */
+#hidden-panel {
+	display: none;
+}
+
+#card {
+  border: none;
+}
+
+/* #icon {
+  margin-left: 200px;
+} */
+
+#iconpara {
+  margin-top: 20px;
+  /* text-indent: 50px; */
+  text-align: justify;
+
+}
+
+/* @media screen and (max-width:768px) {
+
+  #icon {
+    margin-left: 120px;
+  }
+  
+} */

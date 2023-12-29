@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.team .member {
+
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background: white;
+
+}
+
+.team .profilepic {
+    overflow: hidden;
+    width: 150px;
+    /* border-radius: 50%; */
+}
+
+.team .member .member-info {
+    padding-left: 30px;
+
+}
+
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: tomato;
+}
+
+.team .member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.team .member span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: black;
+    bottom: 0;
+    left: 0;
+}
+
+.team .member p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.team .member .social {
+    margin-top: 12px ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.team .member .social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: white;
+    text-decoration: none;
+}
+
+.team .member .social a i {
+    color: tomato;
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.team .member .social a:hover {
+    background: tomato;
+}
+.team .member .social a:hover i {
+    color:white;
+}
+
+/* .team .member .social a+a  {
+    margin-left: 8px;
+} */
+
+
+.team .member .social  .profilebtn {
+    background: rgb(252, 74, 20);
+    color:black;
+    /* padding: 10px; */
+    border: 1px solid black;
+    border-radius: 8px;
+    /* font-size: 12px; */
+    font-weight: 600;
+    width: 100px;
+  }
+
+  .details {
+    list-style-type: none;
+  }
+
+
+/* Navbar Starts */
+
+nav {
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.navbar {
+	/* background: #ee4343; */
+    background: rgb(44, 41, 41);
+    /* background-color:  #fdc448; */
+	padding-left: 16px;
+	padding-right: 16px;
+	/* border-bottom: 1px solid #dfe3e8; */
+	border-radius: 0;
+}
+
+.navbar .navbar-brand {
+	padding-left: 50px;
+	font-size: 20px;
+	padding-right: 50px;
+}
+.navbar .navbar-brand b {
+	/* color: #33cabb;	 */
+    color: #f5ad12;			
+}
+.navbar .form-inline {
+	display: inline-block;
+}
+.navbar a {
+	/* color:black !important; */
+    color: white !important;
+	font-size: 16px;
+}
+
+
+
+.navbar .dropdown-menu {
+	color: #999;
+	font-weight: normal;
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+
+
+
+
+.navbar .action-buttons .dropdown-toggle::after {
+	display: none;
+}
+
+@media (min-width: 1200px){
+	.form-inline .input-group {
+		width: 300px;
+		margin-left: 30px;
+	}
+   
+}
+@media (max-width: 768px){
+	.navbar .dropdown-menu.action-form {
+		width: 100%;
+		padding: 10px 15px;
+		background: transparent;
+		border: none;
+	}
+	.navbar .form-inline {
+		display: block;
+	}
+	.navbar .input-group {
+		width: 100%;
+	}
+    .navbar-nav {
+        margin-left: 0px !important;
+    }
+    .navbar-toggler {
+        margin-right: 20px !important;
+    }
+}
+
+.navbar-nav .nav-link {
+    margin-left: 30px;
+}
+
+.sign-up-btn {
+    margin-left: 30px;
+
+}
+
+#loginbtn {
+	margin-right: 30px;
+}
+
+  
+/* Navbar Ends */
+
+
+
+/* */
+
+
+
+
+
+.list li {
+    list-style-type: none !important;
+    text-align: justify;
+    line-height: 50px !important;
+  }
+
+
+#myTab {
+    padding: 10px;
+    margin-top: -2px;
+    /* padding-top: -20px !important; */
+    background: tomato;
+}
+
+
+.nav-borders .nav-link.active  {
+    background: #f5ad12;
+}
+
+
+
+
+
+
+.img-account-profile {
+    height: 10rem;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+.card .card-header {
+    font-weight: 800 !important;
+}
+.card-header:first-child {
+    border-radius: 0.35rem 0.35rem 0 0;
+}
+.card-header {
+    color: white;
+    padding: 1rem 1.35rem;
+    margin-bottom: 0;
+    background-color: rgba(156, 49, 16, 0.925) !important;
+    border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+}
+
+
